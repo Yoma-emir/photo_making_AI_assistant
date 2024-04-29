@@ -12,7 +12,7 @@ def detect_faces(image):
     return faces
 
 # Example usage
-image_path = 'test3.jpeg'
+image_path = '../test3.jpeg'
 image = cv2.imread(image_path)
 faces = detect_faces(image)
 print("Detected faces:")
